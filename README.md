@@ -54,3 +54,35 @@ This project is licensed under the MIT License.
 ## Contact
 For any questions or feedback, please contact me at [mpondizwivhuyainnocent@gmail.com].
 
+## Contributing
+
+We welcome contributions to this project! If you have ideas for cool features or improvements, we’d love to hear from you. Here’s how you can get involved:
+
+### Submitting Ideas
+
+- **Email:** You can reach out to us directly at [mpondizwivhuyainnocent@gmail.com] with your suggestions or questions.
+- **GitHub Issues:** You can open an issue on GitHub to suggest new features or report bugs. Please provide as much detail as possible to help us understand your request.
+
+### Contributing Code
+
+If you would like to contribute code to this project, please follow these steps:
+
+1. **Fork the Repository:** Click the "Fork" button at the top right of the repository page to create a copy of the repository on your own GitHub account.
+2. **Create a New Branch:** In your forked repository, create a new branch for your feature or fix:
+    ```bash
+    git checkout -b feature-name
+    ```
+3. **Make Your Changes:** Develop your feature or fix in your branch.
+4. **Commit and Push:** Commit your changes and push the branch to your forked repository:
+    ```bash
+    git add .
+    git commit -m "Add feature-name"
+    git push origin feature-name
+    ```
+5. **Open a Pull Request:** Go to the original repository and open a pull request to merge your changes. In the pull request description, explain your changes and why they should be merged.
+
+### Getting Permission
+
+If you want to add significant new features or make substantial changes, please reach out to us first to ensure alignment with the project’s vision. You can contact us via email or through a GitHub issue.
+
+Thank you for contributing to this project!
