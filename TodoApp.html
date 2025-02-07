@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TodoApp</title>
+    <link rel="stylesheet" href="styles/styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  </head>
+  <body>
+    <div class="head">
+      <h1 class="heading">TodoApp</h1>
+    </div>
+    <div class="time">
+      <div class="time-live" id="time-live"></div>
+    </div>
+    <div class="content-container">
+      <div class="js-todo-list todo-list-grid"></div>
+      <div class="chart-container">
+        <canvas id="myPieChart" width="400px" height="400px"></canvas>
+      </div>
+      <div class="todo-input-grid">
+        <input
+          type="text"
+          placeholder="Todo Name"
+          class="js-name-input name-input bt-css" />
+        <input type="date" class="js-due-date-input due-date-input bt-css" />
+        <button type="button" class="add-todo-button js-add-todo-button" onclick="addTodo()">Add</button>
+      </div>
+    </div>
+    <script type="module" src="scripts/TodoApp.js"></script>
+  </body>
+</html>
