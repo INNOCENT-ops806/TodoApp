@@ -161,8 +161,45 @@ canvas {
 #myPieChart {
     border-radius: 50%;
 }
-input:focus, button:focus {
+
+input:focus,
+button:focus {
     outline: none;
     box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
 }
 
+/* FOR MOBILE DEVICES */
+@media (max-width:414px) {
+    .head {
+        text-align: center;
+        width: 100%;
+    }
+
+    .time {
+        font-size: large;
+        font-weight: bolder;
+        text-align: center;
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    .content-container {
+        display: list-item;
+        overflow-y: auto;
+        max-height: 100%;
+        flex-grow: 1;
+    }
+
+    .due-date-input {
+        padding: 5px;
+        font-size: 16px;
+        border: 2px solid #ccc;
+        border-radius: 4px;
+    }
+
+    input:focus,
+    button:focus {
+        outline: none;
+        box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+    }
+
+}
